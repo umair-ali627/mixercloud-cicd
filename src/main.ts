@@ -66,6 +66,7 @@ async function bootstrap() {
       },
     }),
   );
+  console.log("init>>>>>>>>>>")
 
   if (process.env.NODE_ENV !== 'production') {
     const config = new DocumentBuilder()
